@@ -13,6 +13,8 @@
 		C45D2BA2270D0EF400313D70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45D2BA0270D0EF400313D70 /* Main.storyboard */; };
 		C45D2BA4270D0EFA00313D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45D2BA3270D0EFA00313D70 /* Assets.xcassets */; };
 		C45D2BA7270D0EFA00313D70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45D2BA5270D0EFA00313D70 /* LaunchScreen.storyboard */; };
+		C45D2BAF270D10F100313D70 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D2BAE270D10F100313D70 /* DetailsVC.swift */; };
+		C45D2BB1270D125000313D70 /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45D2BB0270D125000313D70 /* Anime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C45D2BA3270D0EFA00313D70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C45D2BA6270D0EFA00313D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C45D2BA8270D0EFA00313D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45D2BAE270D10F100313D70 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		C45D2BB0270D125000313D70 /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				C45D2BA3270D0EFA00313D70 /* Assets.xcassets */,
 				C45D2BA5270D0EFA00313D70 /* LaunchScreen.storyboard */,
 				C45D2BA8270D0EFA00313D70 /* Info.plist */,
+				C45D2BAE270D10F100313D70 /* DetailsVC.swift */,
+				C45D2BB0270D125000313D70 /* Anime.swift */,
 			);
 			path = AnimeList;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C45D2B9F270D0EF400313D70 /* ViewController.swift in Sources */,
+				C45D2BB1270D125000313D70 /* Anime.swift in Sources */,
+				C45D2BAF270D10F100313D70 /* DetailsVC.swift in Sources */,
 				C45D2B9B270D0EF400313D70 /* AppDelegate.swift in Sources */,
 				C45D2B9D270D0EF400313D70 /* SceneDelegate.swift in Sources */,
 			);
